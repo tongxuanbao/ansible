@@ -2,3 +2,4 @@
   become: true
   tasks: 
     - import_tasks: tasks/zsh-setup.yml
+    - import_tasks: tasks/dotfiles.yml
